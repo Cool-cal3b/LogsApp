@@ -1,0 +1,40 @@
+.backButton {
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.backButton:hover {
+    background-color: white;
+    color: #1B2636;
+}
+
+.cont {
+    width: fit-content;
+    display: grid;
+    justify-items: center;
+}
+
+.outterCont {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.topText {
+    text-align: start;
+    width: 100%;
+}
+
+.messageBox {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    max-width: 80vw;
+    min-width: 150px;
+}

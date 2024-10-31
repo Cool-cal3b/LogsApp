@@ -1,0 +1,114 @@
+.logsPage {
+    display: grid;
+    justify-items: center;
+}
+
+.logsTable {
+    width: fit-content;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.logMessageLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.logMessage {
+    max-width: 400px;
+    text-align: start;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+.logMessage:hover {
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
+}
+
+.logHeader {
+    border-bottom: 2px solid white;
+    margin-bottom: 3px;
+}
+
+.logErrorMessage {
+    color: red;
+}
+
+.unviewedMessage {
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logArrows {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.arrowCont {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.viewedButton {
+    opacity: 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+.viewedButton:hover {
+    opacity: 1;
+}
+
+.logsToShowSelect {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1B2636;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.selectHolder {
+    display: grid;
+}
+
+.tableSection {
+    display: grid;
+    justify-content: center;
+}
+
+.markAllButtonCont {
+    display: grid;
+    justify-content: start;
+}
+
+.markAllAsRead {
+    background-color: #1B2636;
+    border: 2px solid white;
+    padding: 4px 4px;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.markAllAsRead:hover {
+    background-color: white;
+    color: #1B2636;
+    font-weight: 600;
+    padding: 4px 1px;
+}

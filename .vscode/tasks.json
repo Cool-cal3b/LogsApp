@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build debug",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/SuperSiteLogsApp",
+                "env": {
+                    "CGO_ENABLED": "1"
+                }
+            },
+            "command": "go",
+            "args": [
+                "build",
+                "-tags",
+                "dev",
+                "-gcflags",
+                "all=-N -l",
+                "-o",
+                "${workspaceFolder}/SuperSiteLogsApp/build/bin/SuperSiteLogsApp.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

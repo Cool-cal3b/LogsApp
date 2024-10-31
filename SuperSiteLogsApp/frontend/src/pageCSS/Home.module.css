@@ -1,0 +1,32 @@
+.statCont {
+    display: grid;
+    justify-content: center;
+}
+
+.logoImg {
+    height: 200px;
+    width: 200px;
+}
+
+.logoCont {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #3a485c;
+    width: fit-content;
+    display: grid;
+    justify-items: center;
+}
+
+.logoTitle {
+    font-size: 25px;
+    width: 121px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.centered {
+    display: grid;
+    justify-content: center;
+}

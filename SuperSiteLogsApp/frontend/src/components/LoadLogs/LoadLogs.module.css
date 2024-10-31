@@ -1,0 +1,39 @@
+.loadLogsButton {
+    width: 50px;
+    margin: 10px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+}
+
+.loadLogsCont {
+    display: grid;
+    justify-content: center;
+}
+
+.loadLogsIcon {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.currentlyLoading {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(160deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

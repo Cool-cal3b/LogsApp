@@ -1,0 +1,40 @@
+.statCont {
+    display: flex;
+    border: 2px solid gray;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3a485c;
+}
+
+.statCard {
+    width: 170px;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-weight: 800;
+    color: darkslategray;
+    font-size: 25px;
+    border: 1px solid gray;
+}
+
+.redCard {
+    background-color: #b86c76;
+}
+
+.redCard:hover {
+    background-color: red;
+}
+
+.greenCard {
+    background-color: #b2dbad;
+}
+
+.greenCard:hover {
+    background-color: green;
+}
